@@ -1,4 +1,4 @@
-# PersonalizedGmailMassEmailer
+# gmailMassEmailer
 
 ### Developed using python 3.5x
 
