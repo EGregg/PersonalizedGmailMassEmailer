@@ -4,6 +4,9 @@
 
 ### Developed for a user to send out many emails from a designated Gmail account, with the same body but with a few details changed to personalize it for each recipient.
 
+<strong> How It Works:</strong> <br>
+Running pythonGmailEmailer.py will attempt to attach genericPDF.pdf and genericIMAGE.jpg. pythonGmailEmailer.py will read line by line from genericPersonalization.txt and split each line into 3 indices, the first 2 will be substituted into the email message, the third index from a line will be the intended recipient. pythonGmailEmailer.py will read genericMessage.txt and insert the text from that file into the body of the email.
+
 <strong> Contents: </strong> <br>
 genericIMAGE.jpg<br>
 genericMessage.txt<br>
@@ -20,5 +23,4 @@ Edit pythonGmailEmailer.py variables gmail_user and gmail_pwd to be the user nam
 
 Run ` $python pythonGmailEmailer.py `.
 
-<strong> How It Works:</strong> <br>
-Running pythonGmailEmailer.py will attempt to attach genericPDF.pdf and genericIMAGE.jpg. pythonGmailEmailer.py will read line by line from genericPersonalization.txt and split each line into 3 indices, the first 2 will be substituted into the email message, the third index from a line will be the intended recipient. pythonGmailEmailer.py will read genericMessage.txt and insert the text from that file into the body of the email.
+
